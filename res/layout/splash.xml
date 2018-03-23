@@ -1,0 +1,9 @@
+<!-- Latest modification 2012-4-28 -->
+<LinearLayout
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	android:layout_width ="128px"
+	android:layout_height = "128px"
+	android:layout_gravity="center"
+	android:orientation = "vertical"
+	android:background = "@drawable/icon_128" >
+</LinearLayout>

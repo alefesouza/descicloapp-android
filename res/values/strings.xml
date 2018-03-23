@@ -1,0 +1,24 @@
+<!-- Latest modification 2012-4-30 -->
+<resources>
+	<string name="hello">Futuro DescicloApp para Android...</string>
+	<string name="app_name">DescicloApp</string>
+	<string name="titulo">DescicloApp</string>
+	<string name="sobre">Sobre</string>
+	<string name="sair_label">Sair</string>
+	<string name="share_label">Compartilhar</string>
+	<string name="configs">Configurações</string>
+	<string name="mudar">Mudar título</string>
+	<string name="sobre_title">Sobre - DescicloApp</string>
+	<string name="sobre_texto">\ DescicloApp para Android Alpha 3; By Aloogle <i>http://code.google.com/p/aloogle</i>.</string>
+	<string name="alternate_title" >Futuro DescicloApp</string>
+	<string name="toggle_title">Mudar</string>
+	<string name="menu_refresh">Recarregar</string>
+	<string name="menu_search">Pesquisar</string>
+	<string name="menu_share">Compartilhar </string>
+	<string name="configs_title">Configurações - DescicloApp</string>
+	<string name="configs_atalhos">s</string>
+	<string name="naveg_title">Abrir no navegador</string>
+	<string name="naveg_summary">Sempre abrir resultados no navegador</string>
+	<string name="bla_title">Alguma coisa aí</string>
+	<string name="bla_summary">Blablabla</string>
+</resources>

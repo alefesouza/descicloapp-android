@@ -1,0 +1,14 @@
+<!-- Latest modification 2012-4-29 -->
+<PreferenceScreen
+	xmlns:android = "http://schemas.android.com/apk/res/android" >
+	<CheckBoxPreference
+		android:key ="Naveg"
+		android:title = "@string/naveg_title"
+		android:summary ="@string/naveg_summary"
+		android:defaultValue = "true" />
+	<CheckBoxPreference
+		android:key ="hints"
+		android:title = "@string/bla_title"
+		android:summary ="@string/bla_summary"
+		android:defaultValue = "true" />
+</PreferenceScreen>

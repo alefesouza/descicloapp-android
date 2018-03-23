@@ -1,0 +1,52 @@
+<!-- Latest modification 2012-5-1 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:background="@color/background"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:layout_gravity="center" >
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent" >
+		<TextView android:text="@string/titulo"
+			android:layout_height="30px"
+			android:layout_width="fill_parent"
+			android:layout_gravity="center"
+			android:textSize="22.5sp" />
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="20px"
+			android:text="@string/hello" />
+		<LinearLayout android:orientation="vertical"
+			android:layout_height="match_parent"
+			android:layout_width="320px"
+			android:layout_gravity="center" >
+			<EditText
+				android:id="@+id/edit_box"
+				android:layout_width="270px"
+				android:layout_height="wrap_content" />
+			<Button
+				android:id="@+id/insert_button"
+				android:layout_width="80px"
+				android:layout_height="wrap_content"
+				android:text="Ir" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_height="match_parent"
+			android:layout_width="320px"
+			android:layout_gravity="center" >
+		<Button android:id="@+id/toggle_title"
+			android:layout_width="320px"
+			android:layout_height="wrap_content"
+			android:text="@string/mudar" />
+		<Button android:id="@+id/sobre_button"
+			android:layout_width="320px"
+			android:layout_height="wrap_content"
+			android:text="@string/sobre" />
+		<Button android:id="@+id/sair_button"
+			android:layout_width="320px"
+			android:layout_height="wrap_content"
+			android:text="@string/sair_label"/>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

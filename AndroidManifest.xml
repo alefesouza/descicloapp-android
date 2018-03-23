@@ -1,0 +1,44 @@
+<!-- Latest modification 2012-4-30 -->
+<manifest xmlns:android = "http://schemas.android.com/apk/res/android"
+	package= "aloogle.descicloapp"
+	android:versionCode = "1"
+	android:versionName = "Alpha 3" >
+	<uses-sdk android:minSdkVersion = "3" android:targetSdkVersion = "14" />
+	<application android:label = "@string/app_name"
+		android:icon = "@drawable/icon"
+		android:theme = "@style/AppTheme" >
+		<activity
+			android:label = "@string/app_name"
+			android:name = ".Splash" >
+            <intent-filter >
+				<action
+					android:name ="android.intent.action.MAIN" />
+				<category
+					android:name ="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name = ".AloogleDescicloActivity" android:label = "@string/app_name" >
+			<intent-filter>
+				<action android:name = "aloogle.descicloapp.ALOOGLEDESCICLOACTIVITY" />
+				<category android:name = "android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Sobre" android:label="@string/sobre_title"
+			android:theme= "@android:style/Theme.Dialog" >
+			<intent-filter>
+				<action android:name="aloogle.descicloapp.SOBRE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Preferencias" android:label="@string/configs_title" >
+			<intent-filter>
+				<action android:name="aloogle.descicloapp.PREFERENCIAS" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<intent-filter>
+			<action android:name="android.intent.action.SEND" />
+			<category android:name="android.intent.category.DEFAULT" />
+		</intent-filter>
+	</application>
+</manifest>
